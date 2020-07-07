@@ -7,6 +7,7 @@ sudo apt-get install wget -y
 
 # Install VirtualBox Guest Additions
 sudo apt-get install linux-headers-$(uname -r) build-essential dkms
+mkdir -p /media/cdrom
 sudo mount /dev/cdrom /media/cdrom
 sudo sh /media/cdrom/VBoxLinuxAdditions.run
 
